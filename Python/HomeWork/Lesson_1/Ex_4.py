@@ -2,8 +2,12 @@
 # отломить k долек, если разрешается сделать один разлом по прямой
 # между дольками (то есть разломить шоколадку на два прямоугольника)
 
-n, m, k = int(input()), int(input()), int(input())
-if k % n == 0 or k % m == 0:
-    print('yes')
-else:
-    print('no')
+# n, m, k = int(input()), int(input()), int(input())
+# if m * n == k:
+#     print('no')
+# elif k % n == 0 or k % m == 0:
+#     print('yes')
+# # elif m * n == k:
+# #     print('no')
+# else:
+#     print('no')
